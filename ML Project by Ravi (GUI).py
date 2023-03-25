@@ -26,7 +26,8 @@ model.add(Dense(10,activation='softmax'))
 
 model.compile(loss='categorical_crossentropy',optimizer='adam',metrics=['accuracy'])
 
-model.load_weights('C:/Users/Ravi Kumar/OneDrive/Desktop/6 weeks ML project-2/week 6/mnist.h5')
+model.load_weights('https://github.com/RaviKumarAllam/HandWrittenRecognition-using-ML/blob/main/mnist.h5')
+#C:/Users/Ravi Kumar/OneDrive/Desktop/6 weeks ML project-2/week 6/mnist.h5
 
 def event_function(event):
     
